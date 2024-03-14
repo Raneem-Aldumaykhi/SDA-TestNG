@@ -23,7 +23,6 @@ public class Task02 extends TestBase {
 
         WebElement submit =driver.findElement(By.id("submit"));
         submit.click();
-        //Verify error message is displayed.
 
         sa.assertTrue(driver.getCurrentUrl().contains("practicetestautomation.com/logged-in-successfully/"),
                 "URL doesn't contain the expected text");
