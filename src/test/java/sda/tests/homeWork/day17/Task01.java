@@ -27,10 +27,10 @@ public class Task01 extends TestBase {
 
     }
 
-    @DataProvider(name = "successLogin")
+   /* @DataProvider(name = "successLogin")
     public Object[][] getData(){
         return new Object[][]{
-                {"clarusway@gmail.com","123456789"},};}
+                {"clarusway@gmail.com","123456789"},};}*/
 
     @DataProvider(name = "searchQueries")
     public Object[][] searchQueriesProvider() {
