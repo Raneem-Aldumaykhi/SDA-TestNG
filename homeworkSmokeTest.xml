@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Smoke Test Suite" verbose="5" >
+<suite name="Smoke Test Suite" verbose="5" parallel="classes"  thread-count="2" >
     <test name="Smoke Test">
         <packages>
-            <package name="sda.tests.smokeTest"></package>
+            <package name="sda.tests.homeWork.day18.smokeTest"></package>
         </packages>
     </test>
 </suite>
